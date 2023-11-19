@@ -2,12 +2,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'SF Pro Text', sans-serif;
 }
 
 img {
   width: 100%;
 }
 
-.summary img{
+main {
+  padding: 30px;
+}
+
+.summary {
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  border: 1px solid blue;
+}
+
+.summary img {
   width: 30px;
 }
